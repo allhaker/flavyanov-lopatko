@@ -1,0 +1,25 @@
+@import url(https://fonts.googleapis.com/css?family=Comfortaa:400,300,700&subset=latin,cyrillic);
+
+body {
+  background: #f9f9f9 !important;
+}
+
+.title, footer {
+  font-family: 'Comfortaa', cursive;
+}
+
+.title {
+  text-align: center;
+}
+
+.title .lang {
+  display: inline-block;
+}
+
+.title .title-text {
+  font-size: 18pt;
+}
+
+footer{
+  text-align: center;
+}
