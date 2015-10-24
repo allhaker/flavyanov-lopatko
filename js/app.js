@@ -3,6 +3,8 @@ $(document).ready(function() {
   slideShow('#about .slideshow');
   slideShow('#other-works .slideshow');
 
+  centerMessage();
+
   //Active Language
   $('#lang > div > a').click(function(e) {
     e.preventDefault();
@@ -10,6 +12,11 @@ $(document).ready(function() {
     $(this).addClass('lang-active');
   });
 });
+
+function centerMessage () {
+  var spanOffset = $("footer span").offset().left - $('.block').first().offset().left - parseInt($(".main").css("padding-left"), 10);
+  $('#message').css('margin-left', spanOffset)
+}
 
 function slideShow(id) {
   $(id).cycle({
