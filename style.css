@@ -13,11 +13,16 @@ body {
 }
 
 .title {
+  margin-top: 20px;
   text-align: center;
 }
 
 .title .lang {
   display: inline-block;
+}
+
+.title .lang-active {
+  text-decoration: underline;
 }
 
 .title .title-text {

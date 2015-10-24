@@ -2,6 +2,13 @@ $(document).ready(function() {
   slideShow('#demoreel .slideshow');
   slideShow('#about .slideshow');
   slideShow('#other-works .slideshow');
+
+  //Active Language
+  $('#lang > div > a').click(function(e) {
+    e.preventDefault();
+    $('#lang > div > a').removeClass('lang-active');
+    $(this).addClass('lang-active');
+  });
 });
 
 function slideShow(id) {
@@ -17,5 +24,4 @@ function slideShow(id) {
     function() {
       $(id).cycle('pause');
     });
-
 }
