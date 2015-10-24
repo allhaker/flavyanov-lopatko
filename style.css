@@ -1,4 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Comfortaa:400,300,700&subset=latin,cyrillic);
+@import url(https://fonts.googleapis.com/css?family=Comfortaa&subset=latin,cyrillic);
 
 body {
   background: #f9f9f9 !important;
@@ -51,8 +52,10 @@ body {
 
 .main-title{
   margin-top: 30px;
+  margin-left: 20px;
   text-decoration: bold;
-  font-size: 24pt;
+  font-style: italic;
+  font-size: 17pt;
   text-align: center;
 }
 
@@ -68,22 +71,6 @@ footer{
   margin-bottom: 15px;
   text-align: center;
 }
-
-#slideshow1 a {
-  display: none;
-}
-#slideshow1 div a {
-  display: block;
-}
-
-#slideshow2 a {
-  display: none;
-}
-#slideshow2 div a {
-  display: block;
-}
-
-
 
 @media only screen and (min-width: 1200px) {
   .main .col-lg-4 { /*Change to Media Query*/
