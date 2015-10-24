@@ -1,155 +1,48 @@
 <!DOCTYPE html>
-<html class="backstretch">
+<html>
 
 <head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Autodia</title>
-  <link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
-  <link href="bower_components/normalize.css/normalize.css" rel="stylesheet">
-  <link href="css/style.css" rel="stylesheet">
+  <title>Flayanov &#38; Lopatko</title>
+  <link href="style.css" rel="stylesheet">
+  <script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
+  <!--<link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">-->
+  <link href="test/css/bootstrap.min.css" rel="stylesheet">
+  <script type="text/javascript" src="js/app.js"></script>
 </head>
-
-<body id="my-body" data-spy="scroll" data-target=".navbar" data-offset="400">
-  <img id="background-image" class="background" src="img/background.jpg">
-  <div class="navbar navbar-inverse navbar-fixed-top" id="main-navbar">
-    <div class="navbar-header">
-      <a href="/autodia" class="navbar-brand desktop" id="brand">AUTODIA</a>
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-    </div>
-    <div class="collapse navbar-collapse" id="navbar-collapse">
-      <ul id="main-menu" class="nav navbar-nav navbar-center">
-        <li><a href="#main" id="main-btn" class="main-menu">Etusivu</a></li>
-        <li><a href="#company" id="company-btn">Tietoa yrityksestä</a></li>
-        <li><a href="#services" id="services-btn">Palvelut</a></li>
-        <li><a href="#contacts" id="contacts-btn">Yhteystiedot</a></li>
-      </ul>
-      <ul id="main-languages" class="nav navbar-nav navbar-right">
-        <li><a href="#fi" id="suomi" class="main-languages-active">Suomi</a>
-          <div class="divider"></div>
-        </li>
-        <li><a href="#ru" id="rus">Русский</a>
-          <div class="divider"></div>
-        </li>
-        <li><a href="#en" id="eng">English</a></li>
-      </ul>
-    </div>
-
-  </div>
-  <div id="main" class="container-block" style="opacity: 0;">
-    <div class="title" id="main-title">Autojen diagnostiikka ja korjaus pääkaupunkiseudulla</div>
-    <div class="bottom-block">
-      <div class="content">
-        <p id="main-content-1">Autojen elektronisten järjestelmien tietokonediagnostiikka on tehokkaimpia tapoja selvittää järjestelmien viat ja ennaltaehkäistä kaikenlaisia häiriöitä.</p>
+jkhjkh
+<body>
+  <div class="container title">
+    <div class="col-md-12">
+      <div class="row">
+        <div class="lang">
+          ru
+        </div>
+        <div class="lang">
+          /
+        </div>
+        <div class="lang">
+          en
+        </div>
+      </div>
+      <div class="row">
+        <img src="img/logo.png" width="300px">
+      </div>
+      <div class="row">
+        <div class="title-text">
+          Видеосъемка, монтаж, производство видеороликов
+        </div>
       </div>
     </div>
   </div>
+  <div class="container main">
 
-  <div id="company" class="container-block" style="margin-top: 1000px">
-    <div class="circles">
-      <div id="circle-body" class="row">
-        <div class="col-xs-4">
-          <img src="img/engine.png" alt="engine">
-        </div>
-        <div class="col-xs-4">
-          <img src="img/engine_control_unit.png" alt="ECU">
-        </div>
-        <div class="col-xs-4">
-          <img src="img/wires.png" alt="wiring">
-        </div>
-      </div>
-      <div id="circle-text" class="row">
-        <div class="col-xs-4" id="engine">
-          Moottori
-        </div>
-        <div class="col-xs-4" id="brains">
-          Ohjausyksikkö
-        </div>
-        <div class="col-xs-4" id="wiring">
-          Johdotus
-        </div>
-      </div>
-    </div>
-    <div class="bottom-block">
-      <div class="content">
-        <div>
-          <img id="service-pic" src="img/service.png" alt="inside service">
-          <p id="company-content-1">Autodia on toiminut menestyksekkäästi useita vuosia, selvittäen tietokonediagnostiikan menetelmin autojen elektronisten järjestelmien vaikeimpiakin vikoja.</p>
-          <p id="company-content-2">Hoidamme kaikki automerkit. Käytössämme on uusi ajantasainen välineistö, joten takaamme palveluidemme laadun ja suoritamme kaikki alan toimeksiannot. Olemme todenneet, että kaikenlaiset ongelmat ovat ratkaistavissa.</p>
-          <p id="company-content-3">Tule asiakkaaksemme, takaamme sekä palveluiden korkean laadun että henkilökohtaisen lähestymistavan.</p>
-        </div>
-      </div>
-      <a href="#contacts">
-        <div class="map-icon"></div>
-      </a>
-    </div>
   </div>
-
-  <div id="services" class="container-block">
-    <div class="title" id="services-title">Palvelumme</div>
-    <div class="bottom-block">
-      <div class="content">
-        <ul>
-          <li>
-            <p id="services-content-1">Moottorin tietokonediagnostiikka</p>
-          </li>
-          <li>
-            <p id="services-content-2">Kaikki elektronisten järjestelmien diagnostiikka- ja korjaustyöt</p>
-          </li>
-          <li>
-            <p id="services-content-3">Vikakoodien luku ja kuittaus</p>
-          </li>
-          <li>
-            <p id="services-content-4">Moottorinohjausyksikön ohjelmointi</p>
-          </li>
-          <li>
-            <p id="services-content-5">Turvajärjestelmien korjaus</p>
-          </li>
-          <li>
-            <p id="services-content-6">sekä paljon muuta, saadakseen lisätietoja ottakaa meihin yhteyttä</p>
-          </li>
-        </ul>
-      </div>
-      <a href="#contacts">
-        <div class="phone-icon"></div>
-      </a>
-    </div>
-  </div>
-
-  <div id="contacts" class="container-block">
-    <div class="title" id="contacts-title">Yhteystiedot</div>
-    <div class="content">
-      <div id="contacts-desktop" class="row">
-        <div id="contacts-address" class="col-xs-4">
-          Osoite: Espoo, Kilonkallio 5 B
-        </div>
-        <div id="contacts-phone" class="col-xs-4">
-          Puhelin: +358458419000
-        </div>
-        <div id="contacts-email" class="col-xs-4">
-          Email: info@autodiagnostiikka.fi
-        </div>
-      </div>
-      <div class="row" id="contacts-mobile">
-        <div id="contacts-ad" class="col-xs-4">
-          Osoite: Espoo, Kilonkallio 5 B
-        </div>
-        <div id="contacts-mode" class="col-xs-8">
-          Puhelin: +358458419000<br>
-          Email: info@autodiagnostiikka.fi
-        </div>
-      </div>
-      <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1981.4782242882422!2d24.782329599999997!3d60.22246399999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x468df6833e2eef41%3A0x2fcc680889bc2b52!2zS2lsb25rYWxsaW8gNSwgMDI2MTAgRXNwb28sINCk0LjQvdC70Y_QvdC00LjRjw!5e0!3m2!1sru!2suk!4v1438538068469"
-      width="100%" height="450" style="border:0" allowfullscreen></iframe>
-    </div>
-  </div>
-  <script type="text/javascript" src="bower_components/requirejs/require.js" data-main="main"></script>
+  <footer>
+    Разработка сайта: CrazyToaster.com
+  </footer>
 </body>
 
 </html>
