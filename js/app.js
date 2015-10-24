@@ -1,10 +1,9 @@
 $(document).ready(function() {
+  callPopUp();
   slideShow('#demoreel .slideshow');
   slideShow('#about .slideshow');
   slideShow('#other-works .slideshow');
-
   centerMessage();
-
   //Active Language
   $('#lang > div > a').click(function(e) {
     e.preventDefault();
@@ -12,6 +11,19 @@ $(document).ready(function() {
     $(this).addClass('lang-active');
   });
 });
+
+function callPopUp() {
+  $('.popup-vimeo').magnificPopup({
+		disableOn: 700,
+		type: 'iframe',
+		mainClass: 'mfp-fade',
+		removalDelay: 160,
+		preloader: false,
+
+		fixedContentPos: false
+	});
+  console.log("success");
+}
 
 function centerMessage () {
   var spanOffset = $("footer span").offset().left - $('.block').first().offset().left - parseInt($(".main").css("padding-left"), 10);
