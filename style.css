@@ -1,9 +1,14 @@
-  @import url(https://fonts.googleapis.com/css?family=Comfortaa:400,300,700&subset=latin,cyrillic);
-@import url(https://fonts.googleapis.com/css?family=Comfortaa&subset=latin,cyrillic);
+@import url(https://fonts.googleapis.com/css?family=Comfortaa:400,300,700&subset=latin,cyrillic);
+@import url(https://fonts.googleapis.com/css?family=Philosopher:400);
+
 body {
   background: #f9f9f9 !important;
 }
-.main a {
+.main a:hover {
+  text-decoration: none;
+  color: #337ab7;
+}
+.main > a {
   color: #000000 !important;
 }
 .title, footer {
@@ -54,6 +59,8 @@ body {
 }
 #message {
   margin-top: 30px;
+  font-family: 'Philosopher', sans-serif;
+  font-size: 16pt;
 }
 footer {
   margin-top: 30px;
