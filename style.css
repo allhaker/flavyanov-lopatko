@@ -34,6 +34,11 @@ body {
   margin-top: -12px;
 }
 
+.slideshow {
+  height: 306px;
+  width: 606px;
+}
+
 .arrow {
   margin-top: 60px;
   text-align: center;
@@ -45,8 +50,6 @@ body {
   font-size: 24pt;
   text-align: center;
 }
-
-
 
 .main-content{
   margin-left: 10px;
@@ -60,6 +63,22 @@ footer{
   margin-bottom: 15px;
   text-align: center;
 }
+
+#slideshow1 a {
+  display: none;
+}
+#slideshow1 div a {
+  display: block;
+}
+
+#slideshow2 a {
+  display: none;
+}
+#slideshow2 div a {
+  display: block;
+}
+
+
 
 @media only screen and (min-width: 1200px) {
   .main .col-lg-4 { /*Change to Media Query*/
