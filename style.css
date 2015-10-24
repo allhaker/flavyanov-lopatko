@@ -4,6 +4,10 @@ body {
   background: #f9f9f9 !important;
 }
 
+.main a {
+  color: #000000 !important;
+}
+
 .title, footer {
   font-family: 'Comfortaa', cursive;
 }
@@ -53,6 +57,7 @@ body {
 
 footer{
   margin-top: 30px;
+  margin-bottom: 15px;
   text-align: center;
 }
 
