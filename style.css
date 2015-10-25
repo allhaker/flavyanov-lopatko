@@ -1,6 +1,5 @@
-@import url(https://fonts.googleapis.com/css?family=Comfortaa:400,300,700&subset=latin,cyrillic);
+  @import url(https://fonts.googleapis.com/css?family=Comfortaa:400,300,700&subset=latin,cyrillic);
 @import url(https://fonts.googleapis.com/css?family=Philosopher:400);
-
 body {
   background: #f9f9f9 !important;
 }
@@ -31,9 +30,12 @@ body {
   margin-top: 70px;
   background-color: white;
 }
-.main .col-lg-8 {
+.main .col-lg-8, .main .col-lg-5 {
   margin-bottom: -12px;
   margin-top: -12px;
+}
+.main .col-lg-5 {
+  text-align: right;
 }
 .slideshow {
   height: 306px;
@@ -44,14 +46,16 @@ body {
   text-align: center;
 }
 .main-title {
+  font-family: "Comfortaa";
+  font-weight: bold;
   margin-top: 30px;
   margin-left: 20px;
-  text-decoration: bold;
-  font-style: italic;
   font-size: 17pt;
   text-align: center;
 }
 .main-content {
+  font-family: "Times New Roman";
+  text-align: justify !important;
   margin-left: 10px;
   margin-top: 20px;
   text-align: left;
