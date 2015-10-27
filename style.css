@@ -34,6 +34,9 @@ body {
   margin-top: 20px;
   text-align: center;
 }
+.title img{
+  margin: 15px;
+}
 .title .lang {
   display: inline-block;
 }
@@ -45,6 +48,10 @@ body {
 }
 .main .block {
   margin-top: 70px;
+  background-color: white;
+}
+#demoreel .block {
+  margin-top: 40px;
   background-color: white;
 }
 .main .col-sm-8, .main .block-img {
