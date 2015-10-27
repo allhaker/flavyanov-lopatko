@@ -42,13 +42,17 @@ function centerMessage() {
 function reorderBlock() {
   if (checkMobility()) {
     $("#about .col-sm-4").before($("#about .col-sm-8"));
+    $("#micha .block-text").before($("#micha .block-img"));
   } else {
     $("#about .col-sm-8").before($("#about .col-sm-4"));
+    $("#micha .block-img").before($("#micha .block-text"));
+
   }
 }
 
 function onWinResize() {
   $(window).resize(function() {
+    alert("huy");
     centerMessage();
     reorderBlock();
   });

@@ -22,6 +22,7 @@ body {
   float: left;
   display: inline-block;
   width: 609px;
+  padding: 15px;
 }
 .block-img {
   float: left;
@@ -40,6 +41,9 @@ body {
 .title .lang {
   display: inline-block;
 }
+.title .lang a {
+  color: #000000;
+}
 .title .lang-active {
   text-decoration: underline;
 }
@@ -50,9 +54,8 @@ body {
   margin-top: 70px;
   background-color: white;
 }
-#demoreel .block {
+.main .first{
   margin-top: 40px;
-  background-color: white;
 }
 .main .col-sm-8, .main .block-img {
   margin-bottom: -12px;
@@ -103,11 +106,27 @@ footer {
   .arrow {
     margin-top: 20px;
   }
+  .block-text {
+    width: 440px;
+  }
+  .block-img img{
+    width: 300px;
+  }
 }
 @media only screen and (max-width: 768px) {
   .container {
     width: 493px;
   }
+  .main .col-sm-8, .main .block-img, .main .block-text{
+    margin-bottom: -0;
+    margin-top: 0;
+    width: 100%;
+    text-align: center;
+  }
+  .block-img img{
+    width: 250px;
+  }
+
 }
 @media only screen and (max-width: 493px) {
   .container {
