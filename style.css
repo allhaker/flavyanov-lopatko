@@ -58,6 +58,9 @@ body {
   min-width: 100%;
   min-height: 100%;
 }
+.cycle-slideshow img {
+  width: 100%;
+}
 .arrow {
   margin-top: 60px;
   text-align: center;
