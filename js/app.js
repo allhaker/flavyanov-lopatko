@@ -52,7 +52,6 @@ function reorderBlock() {
 
 function onWinResize() {
   $(window).resize(function() {
-    alert("huy");
     centerMessage();
     reorderBlock();
   });
