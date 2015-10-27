@@ -18,6 +18,15 @@ body {
   margin-top: 17px;
   text-align: center;
 }
+.block-text {
+  float: left;
+  display: inline-block;
+  width: 609px;
+}
+.block-img {
+  float: left;
+  display: inline-block;
+}
 .title, footer {
   font-family: 'Comfortaa', cursive;
 }
@@ -32,31 +41,22 @@ body {
   text-decoration: underline;
 }
 .title .title-text {
-  font-size: 18pt;
+  font-size: 16pt;
 }
 .main .block {
   margin-top: 70px;
   background-color: white;
 }
-.main .col-lg-8, .main .col-lg-5 {
+.main .col-sm-8, .main .block-img {
   margin-bottom: -12px;
   margin-top: -12px;
 }
-#micha .col-lg-5 {
-  text-align: right;
+.main .col-sm-4 {
+  padding: 15px;
 }
-#micha .col-lg-7 div {
-  margin-left: 30px;
-}
-#ivan .col-lg-5 {
-  text-align: left;
-}
-#ivan .col-lg-7 {
-  margin-left: -30px;
-}
-.slideshow {
-  height: 306px;
-  width: 606px;
+.cycle-slideshow {
+  min-width: 100%;
+  min-height: 100%;
 }
 .arrow {
   margin-top: 60px;
@@ -66,19 +66,17 @@ body {
   font-family: "Comfortaa";
   font-weight: bold;
   margin-top: 30px;
-  margin-left: 20px;
   font-size: 17pt;
   text-align: center;
 }
 .main-content {
   font-family: "Times New Roman";
-  text-align: justify !important;
-  margin-left: 10px;
+  text-align: justify;
   margin-top: 20px;
-  text-align: left;
   font-size: 12pt;
 }
 #message {
+  padding: 10px;
   margin-top: 30px;
   font-family: 'Philosopher', sans-serif;
   font-size: 16pt;
@@ -88,19 +86,21 @@ footer {
   margin-bottom: 15px;
   text-align: center;
 }
-@media only screen and (min-width: 1200px) {
-  .main .col-lg-4 {
-    /*Change to Media Query*/
-    width: 274px;
+@media only screen and (max-width: 1440px) {
+  .container {
+    width: 740px;
+  }
+  .arrow {
+    margin-top: 20px;
   }
 }
-@media only screen and (max-width: 1200px) {
-  .main .col-lg-4 {
-    /*Change to Media Query*/
-    width: 606px;
+@media only screen and (max-width: 768px) {
+  .container {
+    width: 493px;
   }
-  .main .block {
-    width: 606px;
-    margin-left: auto;
-    margin-right: auto;
+}
+@media only screen and (max-width: 493px) {
+  .container {
+    width: 100%;
   }
+}
