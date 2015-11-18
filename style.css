@@ -1,0 +1,135 @@
+@import url(https://fonts.googleapis.com/css?family=Comfortaa:400,300,700&subset=latin,cyrillic);
+@import url(https://fonts.googleapis.com/css?family=Philosopher:400);
+body {
+  background: #f9f9f9 !important;
+}
+.main a:hover {
+  text-decoration: none;
+  color: #337ab7;
+}
+.main > a {
+  color: #000000 !important;
+}
+.main .main-social a {
+  color: #000000 !important;
+  text-decoration: underline;
+}
+.main .main-social {
+  margin-top: 17px;
+  text-align: center;
+}
+.block-text {
+  float: left;
+  display: inline-block;
+  width: 609px;
+  padding: 15px;
+}
+.block-img {
+  float: left;
+  display: inline-block;
+}
+.title, footer {
+  font-family: 'Comfortaa', cursive;
+}
+.title {
+  margin-top: 20px;
+  text-align: center;
+}
+.title img{
+  margin: 15px;
+}
+.title .lang {
+  display: inline-block;
+}
+.title .lang a {
+  color: #000000;
+}
+.title .lang-active {
+  text-decoration: underline;
+}
+.title .title-text {
+  font-size: 14pt;
+}
+.main .block {
+  margin-top: 70px;
+  background-color: white;
+}
+.main .first{
+  margin-top: 40px;
+}
+.main .col-sm-8, .main .block-img {
+  margin-bottom: -12px;
+  margin-top: -12px;
+}
+.main .col-sm-4 {
+  padding: 15px;
+}
+.cycle-slideshow {
+  min-width: 100%;
+  min-height: 100%;
+}
+.cycle-slideshow img {
+  width: 100%;
+}
+.arrow {
+  margin-top: 60px;
+  text-align: center;
+}
+.main-title {
+  font-family: "Comfortaa";
+  font-weight: bold;
+  margin-top: 30px;
+  font-size: 17pt;
+  text-align: center;
+}
+.main-content {
+  font-family: "Times New Roman";
+  text-align: justify;
+  margin-top: 20px;
+  font-size: 12pt;
+}
+#message {
+  padding: 10px;
+  margin-top: 30px;
+  font-family: 'Philosopher', sans-serif;
+  font-size: 16pt;
+}
+footer {
+  margin-top: 30px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+@media only screen and (max-width: 1440px) {
+  .container {
+    width: 740px;
+  }
+  .arrow {
+    margin-top: 20px;
+  }
+  .block-text {
+    width: 440px;
+  }
+  .block-img img{
+    width: 300px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .container {
+    width: 493px;
+  }
+  .main .col-sm-8, .main .block-img, .main .block-text{
+    margin-bottom: -0;
+    margin-top: 0;
+    width: 100%;
+    text-align: center;
+  }
+  .block-img img{
+    width: 250px;
+  }
+
+}
+@media only screen and (max-width: 493px) {
+  .container {
+    width: 100%;
+  }
+}
