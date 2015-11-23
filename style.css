@@ -112,6 +112,9 @@ footer {
   .block-img img{
     width: 300px;
   }
+  #message {
+    font-size: 14pt;
+  }
 }
 @media only screen and (max-width: 768px) {
   .container {
@@ -126,10 +129,16 @@ footer {
   .block-img img{
     width: 250px;
   }
+  #message {
+    font-size: 12pt;
+  }
 
 }
 @media only screen and (max-width: 493px) {
   .container {
     width: 100%;
+  }
+  #message {
+    font-size: 12pt;
   }
 }
