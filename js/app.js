@@ -34,7 +34,17 @@ function centerMessage() {
   if (checkMobility()) {
     $('#message').css('margin-left', 0);
   } else {
-    var spanOffset = $("footer span").offset().left - $('.block').first().offset().left - parseInt($(".main").css("padding-left"), 10);
+    var spanOffset = 0;
+    var checkElement = $('.block').first();
+    var checkElement2 = $(".main");
+    if (!checkElement.length) {
+      checkElement = $('.portfolio').first();
+      checkElement2 = $(".portfolio");
+    }
+    console.log(checkElement.offset());
+
+    spanOffset = $("footer span").offset().left - checkElement.offset().left - parseInt(checkElement2.css("padding-left"), 10);
+    console.log(parseInt($(".main").css("padding-left")));
     $('#message').css('margin-left', spanOffset);
   }
 }
@@ -58,7 +68,7 @@ function onWinResize() {
 }
 
 function checkMobility() {
-  return ((parseInt($(window).width())) < 768) ? true : false;
+  return ((parseInt($(window).width())) < 750) ? true : false;
 }
 
 function checkSuperMobility() {
