@@ -5,7 +5,7 @@ body {
   text-decoration: none;
   color: #337ab7;
 }
-.main > a {
+.main > a, .portfolio >.col-md-12 a {
   color: #000000 !important;
 }
 .main .main-social a {
@@ -157,8 +157,31 @@ footer {
     font-size: 14pt;
   }
 }
-
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 900px) {
+  #portfolio {
+    width: 493px;
+  }
+  .item .absolute-content-2 {
+    position: relative;
+    top: inherit;
+  }
+  #portfolio .col-md-12, .item, .item-last {
+    width: 100%;
+  }
+  .item {
+    margin-top: 70px;
+  }
+  .first-item {
+    margin-top: 0px;
+  }
+  .last {
+    margin-left: 0px;
+  }
+  #message {
+    font-size: 12pt;
+  }
+}
+@media only screen and (max-width: 768px) {
   .container, #portfolio {
     width: 493px;
   }
@@ -198,9 +221,12 @@ footer {
   }
 
 }
-@media only screen and (max-width: 493px) {
+@media only screen and (max-width: 508px) {
   .container, #portfolio {
     width: 100%;
+  }
+  .item {
+    height: 100%;
   }
   .my-img {
     margin-left: 0px;
@@ -210,6 +236,22 @@ footer {
     margin-bottom: 0px;
   }
   .margin-right {
+    margin-right: 0px;
+  }
+  #message {
+    font-size: 12pt;
+  }
+}
+
+@media only screen and (max-width: 540px) {
+  #portfolio {
+    width: 100%;
+  }
+  .item {
+    height: 100%;
+  }
+  .my-img {
+    margin-left: 0px;
     margin-right: 0px;
   }
   #message {
