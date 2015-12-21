@@ -176,10 +176,10 @@ footer {
     margin-top: 70px;
   }
   .first-item {
-    margin-top: 0px;
+    margin-top: 0;
   }
   .last {
-    margin-left: 0px;
+    margin-left: 0;
   }
   #message {
     font-size: 12pt;
@@ -190,10 +190,10 @@ footer {
     width: 493px;
   }
   .margin-bottom {
-    margin-bottom: 0px;
+    margin-bottom: 0;
   }
   .margin-right {
-    margin-right: 0px;
+    margin-right: 0;
   }
   .item .absolute-content-2 {
     position: relative;
@@ -206,10 +206,10 @@ footer {
     margin-top: 70px;
   }
   .first-item {
-    margin-top: 0px;
+    margin-top: 0;
   }
   .last {
-    margin-left: 0px;
+    margin-left: 0;
   }
   .main .col-sm-8, .main .block-img, .main .block-text{
     margin-bottom: -0;
@@ -233,14 +233,14 @@ footer {
     height: 100%;
   }
   .my-img {
-    margin-left: 0px;
-    margin-right: 0px;
+    margin-left: 0;
+    margin-right: 0;
   }
   .margin-bottom {
-    margin-bottom: 0px;
+    margin-bottom: 0;
   }
   .margin-right {
-    margin-right: 0px;
+    margin-right: 0;
   }
   #message {
     font-size: 12pt;
@@ -255,8 +255,8 @@ footer {
     height: 100%;
   }
   .my-img {
-    margin-left: 0px;
-    margin-right: 0px;
+    margin-left: 0;
+    margin-right: 0;
   }
   #message {
     font-size: 12pt;
