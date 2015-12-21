@@ -41,10 +41,8 @@ function centerMessage() {
       checkElement = $('.portfolio').first();
       checkElement2 = $(".portfolio");
     }
-    console.log(checkElement.offset());
 
     spanOffset = $("footer span").offset().left - checkElement.offset().left - parseInt(checkElement2.css("padding-left"), 10);
-    console.log(parseInt($(".main").css("padding-left")));
     $('#message').css('margin-left', spanOffset);
   }
 }
