@@ -12,6 +12,9 @@ body {
   color: #000000 !important;
   text-decoration: underline;
 }
+.x {
+  margin-top: 50px!important;
+}
 .main .main-social {
   margin-top: 17px;
   text-align: center;
@@ -148,6 +151,9 @@ footer {
   .container {
     width: 740px;
   }
+  .x {
+    margin-top: 30px !important;
+  }
   .arrow {
     margin-top: 20px;
   }
@@ -188,6 +194,9 @@ footer {
 @media only screen and (max-width: 768px) {
   .container, #portfolio {
     width: 493px;
+  }
+  .x {
+    margin-top: inherit !important;
   }
   .margin-bottom {
     margin-bottom: 0;
